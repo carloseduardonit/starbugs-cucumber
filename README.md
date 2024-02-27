@@ -1,9 +1,16 @@
 # Starbugs
  
 # Aplicativo Necessarios:
- -
+ - Git
+ - VS Code
 # Extensão do Vscode:
- - Material Icon Theme
+ - Material Icon Theme => Extensão para mudar a icografia das pasta.
+ - Cucumber =>
+ -
+# Comandos:
+ - CD..
+ - Mkdit <Nome da pasta>
+ - Git Init
 # Site referente ao curso:
  - https://qax.com.br/pt/cursos/bdd-discover
  - https://starbugs.vercel.app/ versão SEM cupom de desconto.
