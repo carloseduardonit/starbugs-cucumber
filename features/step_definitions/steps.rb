@@ -1,6 +1,5 @@
 Quando('acesso a página principal da Starbugs') do
     visit 'https://starbugs-qa.vercel.app'
-    sleep 10
 end
   
 Então('eu devo  ver uma lista de cafés disponível') do
@@ -19,7 +18,7 @@ end
 Dado('que esse produto custa {string}') do |precoProduto|
   @preco_Produto = precoProduto
   produto = find(".coffee-item", text: @nome_produto)
-expect(produto.find(".coffee-price").text.split("\n")).to eql @preco_Produto.split(" ")
+  expect(produto.find(".coffee-price").text.split("\n")).to eql @preco_Produto.split(" ")
 end
 
 Dado('que o custo  de entrega é de {string}') do |freteProduto|
