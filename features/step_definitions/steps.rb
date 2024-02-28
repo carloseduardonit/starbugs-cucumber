@@ -25,10 +25,26 @@ Dado('que o custo  de entrega é de {string}') do |freteProduto|
   @frete_Produto = freteProduto
 end
 
+# este metodo  obtem um Array de Hash
+Dado('que desejo comprar o seguinte produto:') do |itens|
+  @nome_produto = itens.hashes[0][:Product]
+  @preco_Produto= itens.hashes[0][:Price]
+  @frete_Produto = itens.hashes[0][:Delivery]
+end
+
+#este metodo obtem o hash
+Dado('que desejo comprar o seguinte produto1:') do |itens|
+  @nome_produto = itens.rows_hash[:Product]
+  @preco_Produto= itens.rows_hash[:Price]
+  @frete_Produto = itens.rows_hash[:Delivery]
+end
+
+
 Quando('inicio a compra desse item') do
   produto = find(".coffee-item", text: @nome_produto)
   produto.find(".buy-coffee").click
 end
+
 
 Então('deve  ver a página de Checkout  com os detalhes  do produto') do
   tituloProduto = find(".item-details h1")
