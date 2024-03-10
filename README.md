@@ -7,20 +7,26 @@
  - Windows Terminal | https://apps.microsoft.com/detail/9n0dx20hk701?hl=pt-br&gl=BR
  - Node.js | https://nodejs.org/en/download
 # Extensão do Vscode:
- - One Dark Pro
+ - One Dark  =>
  - Material Icon Theme => Extensão para mudar a icografia das pasta.
  - Cucumber =>
- -
 # Comandos:
  - comando de MS - DOS:
    - CD..  => acessar a raiz do diretorio.
-   - Mkdir 'Nome da pasta'
+   - CD 'Nome da pasta' => acessar a pasta  desejada
+   - Mkdir => 'Nome da pasta' => criar a pasta  desejada
  - comando de Git:  
-   - Git Init
-   - Git Add
+   - Git Init => inicializar o repositorio do Git
+   - Git Add =>
    - Git 
 - comando do bash:
    - node --version => verificar a versão de  node instalada 
+   - ruby --version => verificar a versão do ruby instalado
+   - bundle --version => verificar a versão  do bundler instalado
+   - code . =>  vai abrir vscode  na pasta desejada 
+   - code --version => verificar a versão  do VS Code instalado
+   - bundle exec cucumber --init => iniciar a estruturar de pasta de cucumber
+   - touch cucumber.yml => criar um arquivo de configuração 
 - comando de Cucumber:
    - Cucumber --init => Para executar todos testes
    - cucumber --init -t @v1 => Para executar  apenas os casos de testes com a tags
@@ -31,14 +37,14 @@
  - https://www.udemy.com/course/ruby-para-iniciantes/learn/lecture/12324820#
  - https://www.youtube.com/watch?v=JFp4HU-saGE
  - https://www.youtube.com/watch?v=FLsUc_WvXbQ&list=PL0nYAInGtru1VTG7-q0xIg45TGeUry3Lc&index=1
- -
-# Site complementar
+ 
+# Site complementar:
  - https://www.jmonteiro.com/aprendaaprogramar/
  - https://edisciplinas.usp.br/mod/resource/view.php?id=2214254
  - https://blog.kloia.com/creating-end-to-end-web-test-automation-project-from-scratch-part-1-d5eba05a3d71
  - https://acervolima.com/category/ruby/
     - https://acervolima.com/ruby-metodo-string-split-com-exemplos/
 
-# Pergunta;
+# Pergunta:
  - por que o nome do arquivo  tem que se  ROOKS?
 ex
