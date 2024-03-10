@@ -5,11 +5,13 @@ Funcionalidade: Catálogo de cafés
     eu quero ver o catalogo de cafés na tela principal
     Para que eu possa escolher e saber mais sobre os produtos disponíveis
 
+@v0
 Cenário: Acessar o catálogo de cafés na pagina principal
 
     Quando acesso a página principal da Starbugs
     Então  eu devo  ver uma lista de cafés disponível
-    
+
+@v1
 Cenário: Iniciar a compra de um café v1
 
     Dado que estou na página principal da Starbugs
@@ -20,7 +22,7 @@ Cenário: Iniciar a compra de um café v1
     Então deve  ver a página de Checkout  com os detalhes  do produto
     E o valor  total da compra  deve ser  da "R$ 19,99"
 
-
+@v2
 Cenário: Iniciar a compra de um café v2
 
     Dado que estou na página principal da Starbugs
@@ -30,7 +32,8 @@ Cenário: Iniciar a compra de um café v2
     Quando inicio a compra desse item
     Então deve  ver a página de Checkout  com os detalhes  do produto
     E o valor  total da compra  deve ser  da "R$ 19,99"
-@temp
+
+@v3
 Cenário: Iniciar a compra de um café v3
 
     Dado que estou na página principal da Starbugs
@@ -42,6 +45,7 @@ Cenário: Iniciar a compra de um café v3
     Então deve  ver a página de Checkout  com os detalhes  do produto
     E o valor  total da compra  deve ser  da "R$ 19,99"
 
+@v4
 Cenário: Café indisponivel
 
     Dado que estou na página principal da Starbugs

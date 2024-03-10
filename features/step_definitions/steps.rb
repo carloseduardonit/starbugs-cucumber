@@ -1,14 +1,13 @@
 Quando('acesso a página principal da Starbugs') do
-    visit 'https://starbugs-qa.vercel.app'
+  @home.open
 end
   
 Então('eu devo  ver uma lista de cafés disponível') do
-   cafes = all ('.coffee-item')
-   expect(cafes.size).to be > 0
+   expect(@home.coffee_list.size).to be > 0
 end
  
 Dado('que estou na página principal da Starbugs') do
-  visit 'https://starbugs-qa.vercel.app'  
+  @home.open
 end
 
 Dado('que desejo comprar o café {string}') do |nomeProduto|
@@ -16,9 +15,7 @@ Dado('que desejo comprar o café {string}') do |nomeProduto|
 end
 
 Dado('que esse produto custa {string}') do |precoProduto|
-  @preco_Produto = precoProduto
-  produto = find(".coffee-item", text: @nome_produto)
-  expect(produto.find(".coffee-price").text.split("\n")).to eql @preco_Produto.split(" ")
+  @home.validatePrice(@nome_produto, precoProduto)
 end
 
 Dado('que o custo  de entrega é de {string}') do |freteProduto|

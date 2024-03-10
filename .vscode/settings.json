@@ -1,0 +1,10 @@
+{
+    "accessibility.voice.speechLanguage": "pt-BR",
+    "terminal.integrated.automationProfile.windows": {
+
+    },
+    "terminal.integrated.automationProfile.linux": {
+
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
