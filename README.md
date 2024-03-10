@@ -4,6 +4,7 @@
 # Aplicativo Necessarios:
  - Git for Windows +  Bash | https://git-scm.com/download/win
  - VS Code | https://code.visualstudio.com/download
+ - Windows Terminal | https://apps.microsoft.com/detail/9n0dx20hk701?hl=pt-br&gl=BR
  - Node.js | https://nodejs.org/en/download
 # Extensão do Vscode:
  - One Dark Pro
@@ -12,14 +13,14 @@
  -
 # Comandos:
  - comando de MS - DOS:
-   - CD..
+   - CD..  => acessar a raiz do diretorio.
    - Mkdir 'Nome da pasta'
  - comando de Git:  
    - Git Init
    - Git Add
    - Git 
 - comando do bash:
-   - node -v => verificar a versão de  node instalada 
+   - node --version => verificar a versão de  node instalada 
 - comando de Cucumber:
    - Cucumber --init => Para executar todos testes
    - cucumber --init -t @v1 => Para executar  apenas os casos de testes com a tags
