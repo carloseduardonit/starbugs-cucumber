@@ -39,11 +39,14 @@ GEM
     cucumber-messages (22.0.0)
     cucumber-tag-expressions (5.0.6)
     diff-lcs (1.5.1)
+    ffi (1.16.3)
     ffi (1.16.3-x64-mingw-ucrt)
     matrix (0.4.2)
     mini_mime (1.1.5)
     multi_test (1.1.0)
-    nokogiri (1.16.2-x64-mingw-ucrt)
+    nokogiri (1.16.5-x64-mingw-ucrt)
+      racc (~> 1.4)
+    nokogiri (1.16.5-x86_64-linux)
       racc (~> 1.4)
     public_suffix (5.0.4)
     racc (1.7.3)
@@ -79,6 +82,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   capybara
